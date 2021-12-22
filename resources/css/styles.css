@@ -57,6 +57,9 @@ font-size: 1rem;
     bottom: 0;
     z-index: 2;
 }
+.card img{
+border-radius: 20% 20% 0 20%;
+}
 
 
 
