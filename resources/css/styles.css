@@ -1,0 +1,38 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+    
+section+section,footer{
+    margin-top: 20px;
+
+}
+h1,h4{
+    color:#af492c
+}
+.card-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    flex-basis: 100%;
+}
+#navbarNav .navbar-nav li a {
+    font-size: 1.5rem;
+    color:#af492c ;
+}
+#navbarNav .navbar-nav li a:hover{
+    font-size: 1.5rem;
+    color:white ;
+    background-color: #af492c;
+}
+.navbar-nav{
+    display: flex;
+}
+.footer p{
+    color: #af492c;
+    opacity: 0.5;
+}
