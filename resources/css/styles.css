@@ -21,8 +21,9 @@ h1,h4{
     flex-basis: 100%;
 }
 #navbarNav .navbar-nav li a {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     color:#af492c ;
+    font-weight: 300;
 }
 #navbarNav .navbar-nav li a:hover{
     font-size: 1.5rem;
