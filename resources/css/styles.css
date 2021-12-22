@@ -4,14 +4,25 @@
     margin: 0;
     padding: 0;
 }
+
     
 section+section,footer{
     margin-top: 20px;
 
 }
-h1,h4{
+h4{
     color:#af492c
 }
+.comapnyname h1{
+    color:#af492c;
+    font-family: 'Domine', serif;
+    padding: 20px auto;
+    
+}
+p{
+    font-size: large;
+}
+
 .card-container{
     display:flex;
     justify-content: space-between;
@@ -37,3 +48,15 @@ h1,h4{
     color: #af492c;
     opacity: 0.5;
 }
+.text-center div label{
+font-size: 1rem;
+}
+
+.backtotop{
+    position: sticky;
+    bottom: 0;
+    z-index: 2;
+}
+
+
+
